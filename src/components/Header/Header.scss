@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+header {
+    padding: 10px; 
+    padding-bottom: 30px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+     color:#9D9A9A;
+     border-bottom: solid 2px #9D9A9A;
+    .title {
+        font-family: 'Yellowtail', cursive;
+        font-size: 48px;
+        font-weight: 700;
+        padding: 0;
+         margin: 0; 
+         display: flex; 
+         align-items: center;
+
+       svg {  
+           margin-right: 15px;
+       }
+     } 
+    .author {
+        font-size: 26px;
+        font-style: italic;
+    }
+}

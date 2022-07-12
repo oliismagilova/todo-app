@@ -1,0 +1,21 @@
+.nav {
+    background-color:aliceblue;
+   padding: 30px;
+    font-size: 20px; 
+  
+}
+.tasksMenu, 
+.help {
+   //  padding: 10px;
+     margin: 10px;
+     text-decoration: none;
+     color:darkcyan;
+
+ &:hover {
+     background-color:cornsilk;
+     //dmargin: 5px;
+ }    
+  //  display: flex; 
+  //  align-items: center;
+
+}
